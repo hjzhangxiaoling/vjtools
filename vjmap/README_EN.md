@@ -1,7 +1,6 @@
 # VJMap
 
-VJMap is jmap with **per GC generation (Eden, Survivor, OldGen)** object stats printing. It is built with advanced
- techniques to disclose situations like memory leaks and fast-growing tenured objects.
+VJMap prints per GC generation (Eden, Survivor, OldGen) object details of a given process , it is an advanced way to find the reasons of memory leak and fast-growing OldGen.
 
 # 1. Introduction
 
